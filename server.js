@@ -25,7 +25,7 @@ app.use("/api/v1/auth",authRoutes);
 
 //rest api
 app.get("/", (req,res)=>{
-    res.send("<h1>WELCOME TO AUTHENTICATION TASK</h1>"
+    res.send("<h1>WELCOME TO ROLE-BASED AUTHORIZATION SYSTEM</h1>"
     
     );
 });
